@@ -1,0 +1,74 @@
+[
+  {
+    "id": "volt-shift-v1",
+    "name": "Volt Shift V1",
+    "description": "High-performance responsive cushioning designed for explosive speed on the asphalt.",
+    "price": 149.00,
+    "rating": 4.7,
+    "viewCount": 142,
+    "sizes": [8, 8.5, 9, 9.5, 10, 11, 12],
+    "isNew": true,
+    "tags": ["men", "sports", "running"],
+    "images": [
+      { "url": "/hero-shoe.png", "altText": "Volt Shift V1" }
+    ]
+  },
+  {
+    "id": "volt-apex-runner",
+    "name": "Volt Apex",
+    "description": "Ultra-lightweight racing flat with a carbon-fiber plate for maximum energy return.",
+    "price": 199.00,
+    "discountPrice": 179.99,
+    "rating": 4.9,
+    "viewCount": 86,
+    "sizes": [8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5],
+    "isNew": true,
+    "tags": ["women", "sports", "running"],
+    "images": [
+      { "url": "/hero-shoe.png", "altText": "Volt Apex" }
+    ]
+  },
+  {
+    "id": "volt-stratus-court",
+    "name": "Volt Stratus",
+    "description": "A low-profile silhouette featuring reinforced sidewalls for precision multi-directional court movement.",
+    "price": 125.00,
+    "rating": 4.2,
+    "viewCount": 54,
+    "sizes": [7, 8, 9, 10, 11, 12, 13],
+    "isNew": false,
+    "tags": ["men", "sports"],
+    "images": [
+      { "url": "/hero-shoe.png", "altText": "Volt Stratus" }
+    ]
+  },
+  {
+    "id": "volt-kinetic-trail",
+    "name": "Volt Kinetic Trail",
+    "description": "Rugged off-road utility silhouette packed with high-traction deep lugs and water-resistant layers.",
+    "price": 160.00,
+    "rating": 4.5,
+    "viewCount": 91,
+    "sizes": [8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
+    "isNew": false,
+    "tags": ["men", "women", "sports"],
+    "images": [
+      { "url": "/hero-shoe.png", "altText": "Volt Kinetic Trail" }
+    ]
+  },
+  {
+    "id": "volt-mono-slip",
+    "name": "Volt Mono-Slip",
+    "description": "An ultra-minimalist, single-piece molded foam slip-on built for effortless recovery and daily lifestyle comfort.",
+    "price": 85.00,
+    "discountPrice": 65.00,
+    "rating": 4.0,
+    "viewCount": 210,
+    "sizes": [6, 7, 8, 9, 10, 11, 12, 13],
+    "isNew": false,
+    "tags": ["women", "kids", "promo"],
+    "images": [
+      { "url": "/hero-shoe.png", "altText": "Volt Mono-Slip" }
+    ]
+  }
+]

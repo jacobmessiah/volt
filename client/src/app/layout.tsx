@@ -1,8 +1,9 @@
+import type { Metadata } from "next"
 import { Geist_Mono, Inter, Space_Grotesk } from "next/font/google"
 
 import "./globals.css"
-import { ThemeProvider } from "@/src/components/theme-provider"
-import { cn } from "@/src/lib/utils"
+import { ThemeProvider } from "@/components/theme-provider"
+import { cn } from "@/lib/utils"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -15,6 +16,10 @@ const grotesk = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-grotesk",
 })
+
+export const metadata: Metadata = {
+  title: "Volt - Charge your Step"
+}
 
 export default function RootLayout({
   children,
