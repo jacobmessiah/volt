@@ -15,8 +15,8 @@ model Product {
   discountPrice Float?
   rating        Float
   viewCount     Int     @default(0)
-  images        String
-  sizes         String
+  images        Json
+  sizes         Json
   isNew         Boolean @default(false)
-  tags          String
+  tags          Json
 }
