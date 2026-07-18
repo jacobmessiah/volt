@@ -1,0 +1,1214 @@
+[
+    {
+        "name": "Volt Shift Pro",
+        "description": "High-performance running sneaker with responsive cushioning for explosive speed.",
+        "price": 149.99,
+        "discountPrice": 119.99,
+        "rating": 4.7,
+        "viewCount": 142,
+        "sizes": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "isNew": true,
+        "tags": [
+            "Men",
+            "Sports",
+            "Brands"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Shift Pro - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Shift Pro - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Shift Pro - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Apex Runner",
+        "description": "Ultra-lightweight racing flat with carbon plate for maximum energy return.",
+        "price": 199.99,
+        "discountPrice": null,
+        "rating": 4.9,
+        "viewCount": 86,
+        "sizes": [
+            38,
+            39,
+            40,
+            41,
+            42
+        ],
+        "isNew": true,
+        "tags": [
+            "Women",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Apex Runner - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Apex Runner - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Apex Runner - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Stratus Court",
+        "description": "Low-profile court sneaker with reinforced sidewalls for precision movement.",
+        "price": 125.00,
+        "discountPrice": null,
+        "rating": 4.2,
+        "viewCount": 54,
+        "sizes": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+        ],
+        "isNew": false,
+        "tags": [
+            "Men",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Stratus Court - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Stratus Court - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Stratus Court - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Kinetic Trail",
+        "description": "Rugged off-road sneaker with deep lugs and water-resistant layers.",
+        "price": 160.00,
+        "discountPrice": 129.99,
+        "rating": 4.5,
+        "viewCount": 91,
+        "sizes": [
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "isNew": false,
+        "tags": [
+            "Men",
+            "Women",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1535543200580-93513558d9c3?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Kinetic Trail - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Kinetic Trail - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Kinetic Trail - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Mono Slip",
+        "description": "Ultra-minimalist slip-on for recovery and daily comfort.",
+        "price": 85.00,
+        "discountPrice": 64.99,
+        "rating": 4.0,
+        "viewCount": 210,
+        "sizes": [
+            37,
+            38,
+            39,
+            40,
+            41
+        ],
+        "isNew": false,
+        "tags": [
+            "Women",
+            "Kids",
+            "Promo"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Mono Slip - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Mono Slip - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Mono Slip - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Pulse Trainer",
+        "description": "All-purpose training sneaker for gym and cross-training.",
+        "price": 110.00,
+        "discountPrice": null,
+        "rating": 4.3,
+        "viewCount": 167,
+        "sizes": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "isNew": true,
+        "tags": [
+            "Men",
+            "Women",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Pulse Trainer - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Pulse Trainer - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Pulse Trainer - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Nova Kids",
+        "description": "Durable kids sneaker with easy hook-and-loop closure.",
+        "price": 59.99,
+        "discountPrice": 49.99,
+        "rating": 4.6,
+        "viewCount": 289,
+        "sizes": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+        ],
+        "isNew": true,
+        "tags": [
+            "Kids",
+            "Brands"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Nova Kids - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Nova Kids - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Nova Kids - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Glide Elite",
+        "description": "Premium casual sneaker with leather upper and cushioned sole.",
+        "price": 179.99,
+        "discountPrice": null,
+        "rating": 4.8,
+        "viewCount": 342,
+        "sizes": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+        ],
+        "isNew": false,
+        "tags": [
+            "Men",
+            "Brands"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Glide Elite - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Glide Elite - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Glide Elite - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Flex Woven",
+        "description": "Breathable woven sneaker for summer casual wear.",
+        "price": 99.99,
+        "discountPrice": 79.99,
+        "rating": 4.1,
+        "viewCount": 198,
+        "sizes": [
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
+        "isNew": true,
+        "tags": [
+            "Women",
+            "Promo"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Flex Woven - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Flex Woven - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Flex Woven - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Surge Basketball",
+        "description": "High-top basketball sneaker with ankle support and grip.",
+        "price": 159.99,
+        "discountPrice": null,
+        "rating": 4.4,
+        "viewCount": 234,
+        "sizes": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+        ],
+        "isNew": false,
+        "tags": [
+            "Men",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Surge Basketball - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Surge Basketball - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Surge Basketball - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Flux Minimal",
+        "description": "Barefoot-style minimal sneaker for natural movement.",
+        "price": 109.00,
+        "discountPrice": 89.00,
+        "rating": 4.0,
+        "viewCount": 121,
+        "sizes": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "isNew": true,
+        "tags": [
+            "Men",
+            "Women",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Flux Minimal - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Flux Minimal - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Flux Minimal - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Cloud Walker",
+        "description": "Extra-cushioned sneaker for all-day standing comfort.",
+        "price": 139.99,
+        "discountPrice": null,
+        "rating": 4.7,
+        "viewCount": 456,
+        "sizes": [
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "isNew": false,
+        "tags": [
+            "Women",
+            "Men"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Cloud Walker - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Cloud Walker - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Cloud Walker - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Sprint RC",
+        "description": "Track and field sprint spike for competitive racing.",
+        "price": 119.99,
+        "discountPrice": 99.99,
+        "rating": 4.5,
+        "viewCount": 87,
+        "sizes": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "isNew": true,
+        "tags": [
+            "Sports",
+            "Brands"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Sprint RC - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Sprint RC - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Sprint RC - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Retro Classic",
+        "description": "Vintage-style casual sneaker with suede accents.",
+        "price": 149.00,
+        "discountPrice": null,
+        "rating": 4.6,
+        "viewCount": 321,
+        "sizes": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "isNew": false,
+        "tags": [
+            "Men",
+            "Brands"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Retro Classic - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Retro Classic - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Retro Classic - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Sky Hi Women",
+        "description": "Wedge sneaker for added height and style.",
+        "price": 169.00,
+        "discountPrice": 139.00,
+        "rating": 4.2,
+        "viewCount": 189,
+        "sizes": [
+            37,
+            38,
+            39,
+            40,
+            41
+        ],
+        "isNew": true,
+        "tags": [
+            "Women",
+            "Brands"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Sky Hi Women - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Sky Hi Women - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Sky Hi Women - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Trekker Low",
+        "description": "Low-cut hiking sneaker for day trips and trails.",
+        "price": 135.00,
+        "discountPrice": null,
+        "rating": 4.4,
+        "viewCount": 156,
+        "sizes": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+        ],
+        "isNew": false,
+        "tags": [
+            "Men",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Trekker Low - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Trekker Low - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Trekker Low - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Playground Kids",
+        "description": "Colorful kids sneaker for playground adventures.",
+        "price": 49.99,
+        "discountPrice": 39.99,
+        "rating": 4.8,
+        "viewCount": 543,
+        "sizes": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+        ],
+        "isNew": true,
+        "tags": [
+            "Kids",
+            "Promo"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Playground Kids - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Playground Kids - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Playground Kids - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Studio Dance",
+        "description": "Flexible dance sneaker for studio and street.",
+        "price": 95.00,
+        "discountPrice": null,
+        "rating": 4.3,
+        "viewCount": 210,
+        "sizes": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
+        "isNew": false,
+        "tags": [
+            "Women",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Studio Dance - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Studio Dance - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Studio Dance - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Carbon Pro",
+        "description": "Elite performance sneaker with carbon fiber plate.",
+        "price": 249.99,
+        "discountPrice": 199.99,
+        "rating": 4.9,
+        "viewCount": 112,
+        "sizes": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "isNew": true,
+        "tags": [
+            "Men",
+            "Brands",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Carbon Pro - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Carbon Pro - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Carbon Pro - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Breeze Knit",
+        "description": "Breathable knit sneaker for hot weather.",
+        "price": 109.99,
+        "discountPrice": null,
+        "rating": 4.1,
+        "viewCount": 176,
+        "sizes": [
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
+        "isNew": false,
+        "tags": [
+            "Women",
+            "Promo"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Breeze Knit - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Breeze Knit - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Breeze Knit - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Powerlift",
+        "description": "Weightlifting sneaker with flat, stable sole.",
+        "price": 145.00,
+        "discountPrice": 119.00,
+        "rating": 4.6,
+        "viewCount": 134,
+        "sizes": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+        ],
+        "isNew": true,
+        "tags": [
+            "Men",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Powerlift - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Powerlift - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Powerlift - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Chelsea Boot Sneaker",
+        "description": "Hybrid Chelsea boot sneaker for urban style.",
+        "price": 189.00,
+        "discountPrice": null,
+        "rating": 4.5,
+        "viewCount": 267,
+        "sizes": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "isNew": false,
+        "tags": [
+            "Men",
+            "Brands"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Chelsea Boot Sneaker - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Chelsea Boot Sneaker - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Chelsea Boot Sneaker - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Sparkle Kids",
+        "description": "Sparkly kids sneaker for little fashionistas.",
+        "price": 64.99,
+        "discountPrice": 54.99,
+        "rating": 4.7,
+        "viewCount": 432,
+        "sizes": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+        ],
+        "isNew": true,
+        "tags": [
+            "Kids",
+            "Promo"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Sparkle Kids - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Sparkle Kids - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Sparkle Kids - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Wave Rider",
+        "description": "Cushioned running sneaker for long distances.",
+        "price": 159.00,
+        "discountPrice": null,
+        "rating": 4.4,
+        "viewCount": 298,
+        "sizes": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "isNew": false,
+        "tags": [
+            "Men",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Wave Rider - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Wave Rider - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Wave Rider - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Velvet Luxe",
+        "description": "Luxury velvet sneaker for special occasions.",
+        "price": 229.00,
+        "discountPrice": 179.00,
+        "rating": 4.8,
+        "viewCount": 98,
+        "sizes": [
+            37,
+            38,
+            39,
+            40,
+            41
+        ],
+        "isNew": true,
+        "tags": [
+            "Women",
+            "Brands"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Velvet Luxe - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Velvet Luxe - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Velvet Luxe - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Skate Pro",
+        "description": "Durable skate sneaker with reinforced toe cap.",
+        "price": 119.00,
+        "discountPrice": null,
+        "rating": 4.3,
+        "viewCount": 201,
+        "sizes": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "isNew": false,
+        "tags": [
+            "Men",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Skate Pro - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Skate Pro - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Skate Pro - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt School Uniform",
+        "description": "Classic white sneaker for school uniforms.",
+        "price": 79.99,
+        "discountPrice": 69.99,
+        "rating": 4.5,
+        "viewCount": 678,
+        "sizes": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+        ],
+        "isNew": true,
+        "tags": [
+            "Kids",
+            "Promo"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt School Uniform - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt School Uniform - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt School Uniform - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Gore-Tex Trail",
+        "description": "Waterproof trail sneaker with Gore-Tex membrane.",
+        "price": 199.00,
+        "discountPrice": null,
+        "rating": 4.7,
+        "viewCount": 165,
+        "sizes": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+        ],
+        "isNew": false,
+        "tags": [
+            "Men",
+            "Women",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Gore-Tex Trail - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Gore-Tex Trail - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Gore-Tex Trail - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Platform Retro",
+        "description": "Retro platform sneaker for vintage style.",
+        "price": 139.99,
+        "discountPrice": 109.99,
+        "rating": 4.2,
+        "viewCount": 234,
+        "sizes": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+        ],
+        "isNew": true,
+        "tags": [
+            "Women",
+            "Brands"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Platform Retro - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Platform Retro - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Platform Retro - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Sprint Kids",
+        "description": "Lightweight kids running sneaker for track and field.",
+        "price": 69.99,
+        "discountPrice": null,
+        "rating": 4.6,
+        "viewCount": 321,
+        "sizes": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+        ],
+        "isNew": false,
+        "tags": [
+            "Kids",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Sprint Kids - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Sprint Kids - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Sprint Kids - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt City Commuter",
+        "description": "Weather-resistant sneaker for daily commute.",
+        "price": 129.00,
+        "discountPrice": 99.00,
+        "rating": 4.4,
+        "viewCount": 387,
+        "sizes": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "isNew": true,
+        "tags": [
+            "Men",
+            "Women",
+            "Promo"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt City Commuter - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt City Commuter - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt City Commuter - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Yoga Flow",
+        "description": "Flexible barefoot-style sneaker for yoga and Pilates.",
+        "price": 89.00,
+        "discountPrice": null,
+        "rating": 4.1,
+        "viewCount": 154,
+        "sizes": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+        ],
+        "isNew": false,
+        "tags": [
+            "Women",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Yoga Flow - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Yoga Flow - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Yoga Flow - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Limited Edition",
+        "description": "Exclusive limited edition sneaker with unique colorway.",
+        "price": 299.00,
+        "discountPrice": 249.00,
+        "rating": 4.9,
+        "viewCount": 56,
+        "sizes": [
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "isNew": true,
+        "tags": [
+            "Men",
+            "Brands"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Limited Edition - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Limited Edition - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Limited Edition - Top View"
+            }
+        ]
+    },
+    {
+        "name": "Volt Cross Trainer Women",
+        "description": "Women's cross-training sneaker with support.",
+        "price": 119.99,
+        "discountPrice": null,
+        "rating": 4.5,
+        "viewCount": 276,
+        "sizes": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+        ],
+        "isNew": false,
+        "tags": [
+            "Women",
+            "Sports"
+        ],
+        "images": [
+            {
+                "url": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Cross Trainer Women - Front View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Cross Trainer Women - Side View"
+            },
+            {
+                "url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80&h=600",
+                "altText": "Volt Cross Trainer Women - Top View"
+            }
+        ]
+    }
+]
