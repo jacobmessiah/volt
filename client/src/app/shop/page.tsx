@@ -1,7 +1,7 @@
 "use client"
 
 import { useSearchParams } from "next/navigation"
-import { useEffect, useCallback, useState } from "react"
+import { useEffect, useCallback, useState, Suspense } from "react"
 import { SlidersHorizontal, X, Info } from "lucide-react"
 import { Navbar } from "@/app/_components/ui/navbar"
 import Footer from "@/app/_components/footer"
@@ -14,9 +14,12 @@ import { cn } from "@/lib/utils"
 
 const SKELETON_COUNT = 10
 
-export default function ShopPage() {
+// ─── Inner component that uses useSearchParams ────────────────────────────────
+
+function ShopContent() {
   const searchParams = useSearchParams()
   const getProducts = useProductStore((s) => s.getProducts)
+  const searchProducts = useProductStore((s) => s.searchProducts)
 
   const [products, setProducts] = useState<Product[]>([])
   const [loading, setLoading] = useState(true)
@@ -34,12 +37,22 @@ export default function ShopPage() {
 
   useEffect(() => {
     const tagsParam = searchParams.get("tags")
+    const searchParam = searchParams.get("search")
+
+    if (searchParam) {
+      setLoading(true)
+      searchProducts(searchParam).then((data: Product[]) => {
+        setProducts(data)
+        setLoading(false)
+      })
+      return
+    }
+
     const params: GetProductsParams = {}
     if (tagsParam) params.tags = [tagsParam]
     fetchProducts(params)
-  }, [searchParams, fetchProducts])
+  }, [searchParams, fetchProducts, searchProducts])
 
-  // lock body scroll when drawer is open
   useEffect(() => {
     document.body.style.overflow = drawerOpen ? "hidden" : ""
     return () => { document.body.style.overflow = "" }
@@ -62,9 +75,7 @@ export default function ShopPage() {
   )
 
   return (
-    <div className="flex min-h-screen w-full flex-col">
-      <Navbar />
-
+    <>
       {/* ── Mobile/tablet filter bar ── */}
       <div className="flex items-center justify-between border-b border-border px-4 py-2.5 lg:hidden">
         <p className="text-xs text-muted-foreground">
@@ -107,8 +118,6 @@ export default function ShopPage() {
       </div>
 
       {/* ── Mobile/tablet filter drawer ── */}
-
-      {/* backdrop */}
       <div
         onClick={() => setDrawerOpen(false)}
         className={cn(
@@ -117,20 +126,16 @@ export default function ShopPage() {
         )}
       />
 
-      {/* panel — slides up from bottom on mobile, from right on tablet */}
       <div
         className={cn(
           "fixed z-50 bg-background transition-transform duration-300 ease-in-out lg:hidden",
-          // mobile: full-width sheet from bottom
           "bottom-0 left-0 right-0 max-h-[85dvh] rounded-t-2xl",
-          // tablet (sm+): side drawer from right
           "sm:bottom-auto sm:top-0 sm:left-auto sm:right-0 sm:h-full sm:w-80 sm:max-h-none sm:rounded-none sm:rounded-l-2xl",
           drawerOpen
             ? "translate-y-0 sm:translate-y-0 sm:translate-x-0"
             : "translate-y-full sm:translate-y-0 sm:translate-x-full",
         )}
       >
-        {/* drawer header */}
         <div className="flex items-center justify-between border-b border-border px-4 py-3">
           <span className="font-semibold text-sm">Filters</span>
           <button
@@ -140,13 +145,31 @@ export default function ShopPage() {
             <X className="h-4 w-4" />
           </button>
         </div>
-
-        {/* scrollable filter content */}
         <div className="overflow-y-auto p-4" style={{ maxHeight: "calc(85dvh - 48px)" }}>
           <ProductFilter onChange={handleFilterChange} />
         </div>
       </div>
+    </>
+  )
+}
 
+// ─── Page ─────────────────────────────────────────────────────────────────────
+
+export default function ShopPage() {
+  return (
+    <div className="flex min-h-screen w-full flex-col">
+      <Navbar />
+      <Suspense
+        fallback={
+          <div className="flex-1 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 p-4 content-start">
+            {Array.from({ length: SKELETON_COUNT }).map((_, i) => (
+              <ProductItemSkeleton key={i} />
+            ))}
+          </div>
+        }
+      >
+        <ShopContent />
+      </Suspense>
       <Footer />
     </div>
   )

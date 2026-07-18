@@ -24,6 +24,7 @@ interface ProductStoreT {
 
   getProducts: (params?: GetProductsParams) => Promise<Product[]>
   getProductById: (id: string) => Promise<Product | null>
+  searchProducts: (q: string) => Promise<Product[]>
 }
 
 const useProductStore = create<ProductStoreT>((set, get) => ({
@@ -84,6 +85,25 @@ const useProductStore = create<ProductStoreT>((set, get) => ({
       return data
     } catch {
       return null
+    }
+  },
+
+  async searchProducts(q: string) {
+    if (!q.trim()) return []
+    try {
+      const base = process.env.NEXT_PUBLIC_BACKEND_BASE_URL
+      const res = await fetch(
+        `${base}/products/search?q=${encodeURIComponent(q.trim())}`,
+        { next: { revalidate: 30, tags: ["products"] } },
+      )
+      if (!res.ok) return []
+      const data: Product[] = await res.json()
+      const incoming: Record<string, Product> = {}
+      data.forEach((p) => (incoming[p.id] = p))
+      set((s) => ({ cache: { ...s.cache, ...incoming } }))
+      return data
+    } catch {
+      return []
     }
   },
 }))
