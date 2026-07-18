@@ -1,6 +1,12 @@
+import type { Metadata } from "next"
 import Link from "next/link"
 import { buttonVariants } from "@/components/ui/button"
 import { ArrowUpRight } from "lucide-react"
+
+export const metadata: Metadata = {
+  title: "404 — Page Not Found | Volt",
+  description: "This page doesn't exist. Head back and keep moving.",
+}
 
 export default function NotFound() {
   return (

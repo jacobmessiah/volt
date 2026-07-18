@@ -31,7 +31,8 @@ const Hero = () => {
           </div>
 
           <p className="text-sm leading-relaxed text-white/70">
-            Whether you're training for a marathon or just going on your daily jog.
+            Whether you're training for a marathon or just going on your daily
+            jog.
           </p>
 
           <Link
@@ -52,7 +53,7 @@ const Hero = () => {
             {whoItsFor.map((item) => (
               <Link
                 key={item}
-                href={`/shop/${item.toLowerCase()}`}
+                href={`/shop?tags=${item.toLowerCase()}`}
                 className="flex h-full w-full items-center justify-center rounded-full bg-background text-sm shadow-xs transition-colors hover:bg-primary hover:text-primary-foreground"
               >
                 {item}
@@ -69,12 +70,14 @@ const Hero = () => {
             Zero drag, pure electric speed. Built to move faster than the flash.
           </p>
 
-          <Button className="h-12 w-35 gap-4 rounded-full px-4">
-            Explore
-            <div className="rounded-full bg-primary-foreground/20 p-1">
-              <ArrowUpRight className="h-4 w-4" />
-            </div>
-          </Button>
+          <Link href="/shop" >
+            <Button className="h-12 w-40 gap-4 rounded-full px-4">
+              Explore Shop
+              <div className="rounded-full bg-primary-foreground/20 p-1">
+                <ArrowUpRight className="h-4 w-4" />
+              </div>
+            </Button>
+          </Link>
         </div>
 
         {/* Right Part */}

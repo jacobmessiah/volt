@@ -17,8 +17,32 @@ const grotesk = Space_Grotesk({
   variable: "--font-grotesk",
 })
 
+
 export const metadata: Metadata = {
-  title: "Volt - Charge your Step"
+  title: "Volt — Charge Your Step",
+  description:
+    "Volt is your destination for premium footwear — built for speed, comfort, and style. Shop the latest running, basketball, lifestyle, and limited-edition sneakers.",
+  openGraph: {
+    title: "Volt — Charge Your Step",
+    description:
+      "Premium footwear for every stride. Running, basketball, lifestyle & more.",
+    siteName: "Volt",
+    type: "website",
+    images: [
+      {
+        url: "/logo-with-bg.png",
+        width: 1200,
+        height: 630,
+        alt: "Volt — Charge Your Step",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Volt — Charge Your Step",
+    description: "Premium footwear for every stride.",
+    images: ["/logo-with-bg.png"],
+  },
 }
 
 export default function RootLayout({

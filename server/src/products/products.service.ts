@@ -1,30 +1,71 @@
 import { Injectable } from '@nestjs/common';
+import { Prisma } from '@prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
-import * as fs from 'fs';
-import * as path from 'path';
+import { GetProductsDto } from './dto/get-products.dto';
 
 @Injectable()
 export class ProductsService {
-  constructor(private prisma: PrismaService) { }
+  constructor(private prisma: PrismaService) {}
 
-  async seedProducts() {
-    const seedDataPath = path.join(process.cwd(), 'prisma', 'products.seed.json');
-    const seedData = JSON.parse(fs.readFileSync(seedDataPath, 'utf8'));
+  getProducts(dto: GetProductsDto) {
+    const {
+      priceMin,
+      priceMax,
+      sizes,
+      tags,
+      isNew,
+      ratingMin,
+      limit = 15,
+      page = 0,
+    } = dto;
 
-    await this.prisma.product.deleteMany({});
+    const where: Prisma.ProductWhereInput = {
+      ...(priceMin !== undefined || priceMax !== undefined
+        ? {
+            price: {
+              ...(priceMin !== undefined && { gte: priceMin }),
+              ...(priceMax !== undefined && { lte: priceMax }),
+            },
+          }
+        : {}),
 
-    await this.prisma.product.createMany({
-      data: seedData,
-    });
+      ...(sizes?.length ? { sizes: { hasSome: sizes } } : {}),
 
-    return {
-      message: 'Successfully seeded products',
-      count: seedData.length
+      ...(tags?.length ? { tags: { hasSome: tags } } : {}),
+
+      ...(isNew !== undefined ? { isNew } : {}),
+
+      ...(ratingMin !== undefined ? { rating: { gte: ratingMin } } : {}),
     };
+
+    return this.prisma.product.findMany({
+      where,
+      take: limit,
+      skip: page * limit,
+      include: { images: true },
+    });
   }
 
-  async getProducts(tag?: string) {
-    console.log('Received tag query parameter:', tag);
-    return { placeholder: true, tag: tag || 'no tag provided', message: 'Products placeholder response' };
+  getProductById(id: string) {
+    return this.prisma.product.findUnique({
+      where: { id },
+      include: { images: true },
+    });
+  }
+
+  searchProducts(q: string) {
+    if (!q?.trim()) return [];
+
+    return this.prisma.product.findMany({
+      where: {
+        OR: [
+          { name: { contains: q, mode: 'insensitive' } },
+          { description: { contains: q, mode: 'insensitive' } },
+          { tags: { has: q.toLowerCase() } },
+        ],
+      },
+      take: 20,
+      include: { images: true },
+    });
   }
 }
