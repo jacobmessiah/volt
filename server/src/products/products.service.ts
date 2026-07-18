@@ -16,30 +16,48 @@ export class ProductsService {
     await this.prisma.productImage.deleteMany();
     await this.prisma.product.deleteMany();
 
-    // Create all products with nested images
-    for (const product of seedData) {
-      await this.prisma.product.create({
-        data: {
-          name: product.name,
-          description: product.description,
-          price: product.price,
-          discountPrice: product.discountPrice,
-          rating: product.rating,
-          viewCount: product.viewCount,
-          sizes: JSON.stringify(product.sizes),
-          isNew: product.isNew,
-          tags: JSON.stringify(product.tags),
-          images: {
-            create: product.images.map((img) => ({
-              url: img.url,
-              altText: img.altText,
-            })),
-          },
-        },
-      });
-    }
+    // Create all products and images in a transaction
+    const createdProducts = await this.prisma.$transaction(async (prisma) => {
+      // Step 1: Create all products and get their IDs
+      const productsToCreate = seedData.map((product) => ({
+        name: product.name,
+        description: product.description,
+        price: product.price,
+        discountPrice: product.discountPrice,
+        rating: product.rating,
+        viewCount: product.viewCount,
+        sizes: JSON.stringify(product.sizes),
+        isNew: product.isNew,
+        tags: JSON.stringify(product.tags),
+      }));
 
-    return { message: 'Successfully seeded products', count: seedData.length };
+      const createdProducts = await prisma.product.createMany({
+        data: productsToCreate,
+        returning: true, // Only works with PostgreSQL!
+      });
+
+      // Step 2: Prepare product images with product IDs
+      const allProductImages = [];
+      createdProducts.forEach((product, index) => {
+        const originalProduct = seedData[index];
+        originalProduct.images.forEach((img) => {
+          allProductImages.push({
+            url: img.url,
+            altText: img.altText,
+            productId: product.id,
+          });
+        });
+      });
+
+      // Step 3: Create all product images
+      await prisma.productImage.createMany({
+        data: allProductImages,
+      });
+
+      return createdProducts;
+    });
+
+    return { message: 'Successfully seeded products', count: createdProducts.length };
   }
 
   async getProducts(tag?: string) {
