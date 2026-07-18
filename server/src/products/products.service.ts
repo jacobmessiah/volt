@@ -13,51 +13,28 @@ export class ProductsService {
     const seedData = JSON.parse(fs.readFileSync(seedDataPath, 'utf8'));
 
     // Clear existing data
-    await this.prisma.productImage.deleteMany();
     await this.prisma.product.deleteMany();
 
-    // Create all products and images in a transaction
-    const createdProducts = await this.prisma.$transaction(async (prisma) => {
-      // Step 1: Create all products and get their IDs
-      const productsToCreate = seedData.map((product) => ({
-        name: product.name,
-        description: product.description,
-        price: product.price,
-        discountPrice: product.discountPrice,
-        rating: product.rating,
-        viewCount: product.viewCount,
-        sizes: JSON.stringify(product.sizes),
-        isNew: product.isNew,
-        tags: JSON.stringify(product.tags),
-      }));
+    // Prepare products with JSON stringified images, sizes, tags
+    const productsToCreate = seedData.map((product) => ({
+      name: product.name,
+      description: product.description,
+      price: product.price,
+      discountPrice: product.discountPrice,
+      rating: product.rating,
+      viewCount: product.viewCount,
+      images: JSON.stringify(product.images),
+      sizes: JSON.stringify(product.sizes),
+      isNew: product.isNew,
+      tags: JSON.stringify(product.tags),
+    }));
 
-      const createdProducts = await prisma.product.createMany({
-        data: productsToCreate,
-        returning: true, // Only works with PostgreSQL!
-      });
-
-      // Step 2: Prepare product images with product IDs
-      const allProductImages = [];
-      createdProducts.forEach((product, index) => {
-        const originalProduct = seedData[index];
-        originalProduct.images.forEach((img) => {
-          allProductImages.push({
-            url: img.url,
-            altText: img.altText,
-            productId: product.id,
-          });
-        });
-      });
-
-      // Step 3: Create all product images
-      await prisma.productImage.createMany({
-        data: allProductImages,
-      });
-
-      return createdProducts;
+    // Create all products!
+    await this.prisma.product.createMany({
+      data: productsToCreate,
     });
 
-    return { message: 'Successfully seeded products', count: createdProducts.length };
+    return { message: 'Successfully seeded products', count: seedData.length };
   }
 
   async getProducts(tag?: string) {
